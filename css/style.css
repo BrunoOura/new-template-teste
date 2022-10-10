@@ -98,7 +98,7 @@ body {
 
 }
 
-.btn__submit hover {
+.btn__submit:hover {
   background: #03e9f4;
   color: rgb(10, 11, 21);
   border-radius: 5px;
