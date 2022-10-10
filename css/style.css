@@ -38,6 +38,10 @@ body {
 
 }
 
+.login-box .user-box {
+  position: relative;
+}
+
 .login-box .user-box{
   width: 100%;
   padding: 10px 0;
@@ -63,8 +67,7 @@ body {
 
 }
 
-.login-box .user-box input:focus~label,
-.login-box .user-box input:valid~label {
+.login-box .user-box input:focus~label, .login-box .user-box input:valid~label {
   top: -20px;
   left: 0;
   color: #03e9f4;
@@ -95,7 +98,7 @@ body {
 
 }
 
-.btn__submit {
+.btn__submit hover {
   background: #03e9f4;
   color: rgb(10, 11, 21);
   border-radius: 5px;
